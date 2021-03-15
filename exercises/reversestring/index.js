@@ -8,10 +8,22 @@
 
 
 // Solution 1
-function reverse(str) {
-	const reverse = str.split('').reverse().join('')
+//function reverse(str) {
+//	const reverse = str.split('').reverse().join('')
 
-	return reverse
+//	return reverse
+//}
+
+
+//Solution 2
+function reverse(str) {
+	let reversed = '';
+
+	for(let character of str){
+		reversed = character + reversed
+	}
+	return reversed;
 }
+
 
 module.exports = reverse;
