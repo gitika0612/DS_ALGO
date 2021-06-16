@@ -56,7 +56,7 @@ class LinkedList {
 		if(!this.head) {
 			return;
 		}
-			
+
 		this.head = this.head.next
 	}
 
